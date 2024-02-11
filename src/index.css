@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .number {
+        @apply font-Poppins cursor-pointer font-medium text-[32px] text-[#D4D4D2] bg-[#505050] w-[60px] h-[60px] rounded-full flex items-center justify-center duration-300 hover:text-white hover:bg-[#FF9500]
+    }
+
+    .oprator {
+        @apply font-Poppins cursor-pointer font-medium text-[32px] text-[#FFF] hover:bg-[#17181A] w-[60px] h-[60px] rounded-full flex items-center justify-center duration-300 hover:text-white bg-[#FF9500]
+    }
+
+    .function {
+        @apply font-Poppins cursor-pointer font-medium text-[32px] text-[#1C1C1C] hover:bg-[#FF9500] w-[60px] h-[60px] rounded-full flex items-center justify-center duration-300 hover:text-white bg-[#D4D4D2]
+    }
+}
