@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
-
-const Calculator = () => {
+import { useState } from 'react';
+const Calc = () => {
     const [value, setValue] = useState('')
-
     return (
         <form>
             <input className='w-full px-5 py-5 my-5 text-3xl font-normal text-end font-Poppins' type="text" value={value} />
@@ -30,6 +28,4 @@ const Calculator = () => {
         </form>
     );
 };
-
-
-export default Calculator
+export default Calc
