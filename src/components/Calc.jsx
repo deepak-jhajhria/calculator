@@ -12,15 +12,15 @@ const Calc = () => {
                 <input className='number' type="button" value="7" onClick={e => setValue(value + e.target.value)} />
                 <input className='number' type="button" value="8" onClick={e => setValue(value + e.target.value)} />
                 <input className='number' type="button" value="9" onClick={e => setValue(value + e.target.value)} />
-                <input className='oprator' type="button" value="*" onClick={e => setValue(value + e.target.value)} />
+                <input className='oprator' type="button" value="*" onClick={e => setValue(e.target.value)} />
                 <input className='number' type="button" value="4" onClick={e => setValue(value + e.target.value)} />
                 <input className='number' type="button" value="5" onClick={e => setValue(value + e.target.value)} />
                 <input className='number' type="button" value="6" onClick={e => setValue(value + e.target.value)} />
-                <input className='oprator' type="button" value="-" onClick={e => setValue(value + e.target.value)} />
+                <input className='oprator' type="button" value="-" onClick={e => setValue(e.target.value)} />
                 <input className='number' type="button" value="1" onClick={e => setValue(value + e.target.value)} />
                 <input className='number' type="button" value="2" onClick={e => setValue(value + e.target.value)} />
                 <input className='number' type="button" value="3" onClick={e => setValue(value + e.target.value)} />
-                <input className='oprator' type="button" value="+" onClick={e => setValue(value + e.target.value)} />
+                <input className='oprator' type="button" value="+" onClick={e => setValue(e.target.value)} />
                 <input className='number' type="button" value="0" onClick={e => setValue(value + e.target.value)} />
                 <input className='number' type="button" value="." onClick={e => setValue(value + e.target.value)} />
                 <input className='w-full col-span-2 oprator' type="button" value="=" onClick={() => setValue(eval(value))} />
